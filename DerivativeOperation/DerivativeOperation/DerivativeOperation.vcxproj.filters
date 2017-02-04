@@ -18,12 +18,21 @@
     <ClInclude Include="Inequalities.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="GenericInequalities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Inequalities.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="TestInequalitiest.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericInequalities.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestGenericInequalities.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>

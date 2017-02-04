@@ -62,10 +62,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="GenericInequalities.h" />
     <ClInclude Include="Inequalities.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GenericInequalities.cpp" />
     <ClCompile Include="Inequalities.cpp" />
+    <ClCompile Include="TestGenericInequalities.cpp" />
     <ClCompile Include="TestInequalitiest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

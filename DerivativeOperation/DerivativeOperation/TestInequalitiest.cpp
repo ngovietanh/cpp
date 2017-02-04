@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main_arc(){
 	double d1, d2, d3;
 	cout << "Enter first number " << endl;
 	cin >> d1;
@@ -12,6 +12,6 @@ int main(){
 	cin >> d3;
 	cout << "Min value" << Min(d1,d2,d3) << endl;
 	cout << "Max value " << Max(d1,d2,d3) << endl;
-	cin.get();
+	getchar();
 	return 0;
 }
